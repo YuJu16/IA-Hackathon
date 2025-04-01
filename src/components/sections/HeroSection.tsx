@@ -36,18 +36,18 @@ export function HeroSection() {
       <div className="container relative z-10 py-20 text-white">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="font-bold text-4xl md:text-6xl leading-tight mb-6 animate-fade-in">
-            L'IA au service des forêts : <br />
-            <span className="text-white/90">Agissons ensemble!</span>
+            Ensemble, protégeons nos forêts : <br />
+            <span className="text-white/90">Agissons maintenant!</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-white/80 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Une nouvelle technologie pour un ancien problème. Découvrez comment l'intelligence artificielle 
-            révolutionne la lutte contre la déforestation.
+            Chaque arbre est vital pour notre planète. Découvrez comment agir concrètement
+            et rejoignez-nous dans la protection de nos écosystèmes forestiers.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Button onClick={() => scrollToSection("#join")} size="lg" className="bg-white text-forest-dark hover:bg-white/90">
-              Participer au hackathon <ArrowRight className="ml-2 h-4 w-4" />
+              Agir maintenant <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button onClick={() => scrollToSection("#problem")} variant="outline" size="lg" className="border-white text-white hover:bg-white/20">
               En savoir plus

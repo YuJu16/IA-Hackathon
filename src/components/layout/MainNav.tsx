@@ -15,7 +15,7 @@ export function MainNav() {
   const navItems: NavItem[] = [
     { label: "Accueil", href: "#hero" },
     { label: "Problématique", href: "#problem" },
-    { label: "Solutions IA", href: "#solutions" },
+    { label: "Nos Solutions", href: "#solutions" },
     { label: "Hackathon", href: "#hackathon" },
     { label: "Agir", href: "#action" },
     { label: "Partenaires", href: "#partners" },
@@ -56,7 +56,7 @@ export function MainNav() {
         <div className="flex items-center gap-2">
           <TreeDeciduous className="h-8 w-8 text-forest-dark" />
           <span className="font-bold text-lg md:text-xl tracking-tight">
-            IA For Forest
+            Forest Protection
           </span>
         </div>
 

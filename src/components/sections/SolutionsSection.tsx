@@ -5,62 +5,62 @@ import { Brain, Scan, Satellite, Shield, ArrowUpRight } from "lucide-react";
 export function SolutionsSection() {
   const solutions = [
     {
-      title: "Analyse d'images satellites",
-      description: "L'IA analyse les images satellites pour détecter les changements dans la couverture forestière en temps réel.",
-      icon: Satellite,
-      examples: [
-        "Global Forest Watch utilise l'IA pour surveiller les forêts dans le monde entier",
-        "Détection de la déforestation illégale avec 95% de précision",
-        "Alertes rapides permettant d'intervenir avant des dommages irréversibles"
-      ]
-    },
-    {
-      title: "Reconnaissance des motifs",
-      description: "Les algorithmes de deep learning identifient les schémas de déforestation et prédisent les zones à risque.",
-      icon: Brain,
-      examples: [
-        "Prédiction des zones à risque avec une semaine d'avance",
-        "Identification des routes forestières illégales",
-        "Analyse des facteurs socio-économiques liés à la déforestation"
-      ]
-    },
-    {
-      title: "Monitoring acoustique",
-      description: "Des capteurs acoustiques combinés à l'IA détectent les sons de machines et véhicules dans les zones protégées.",
-      icon: Scan,
-      examples: [
-        "Détection des tronçonneuses à plusieurs kilomètres",
-        "Distinction entre activités légales et illégales",
-        "Système d'alerte précoce pour les gardes forestiers"
-      ]
-    },
-    {
-      title: "Prédiction et prévention",
-      description: "L'IA analyse les données historiques pour prévoir et prévenir la déforestation future.",
+      title: "Patrouilles communautaires",
+      description: "Mobilisation des communautés locales pour la surveillance et la protection active de leurs forêts.",
       icon: Shield,
       examples: [
-        "Modélisation de scénarios de déforestation",
-        "Optimisation des patrouilles de protection",
-        "Identification des facteurs clés de déforestation par région"
+        "Formation des gardiens forestiers locaux",
+        "Création de réseaux de surveillance communautaire",
+        "Mise en place de systèmes d'alerte locaux"
+      ]
+    },
+    {
+      title: "Restauration forestière",
+      description: "Programmes de reboisement et de restauration des écosystèmes forestiers avec les communautés locales.",
+      icon: Satellite,
+      examples: [
+        "Pépinières communautaires d'arbres natifs",
+        "Techniques de régénération naturelle assistée",
+        "Corridors écologiques pour la biodiversité"
+      ]
+    },
+    {
+      title: "Gestion durable",
+      description: "Mise en place de pratiques d'exploitation forestière durables et respectueuses de l'environnement.",
+      icon: Brain,
+      examples: [
+        "Formation aux techniques d'agroforesterie",
+        "Certification forestière communautaire",
+        "Développement de produits forestiers non ligneux"
+      ]
+    },
+    {
+      title: "Éducation environnementale",
+      description: "Sensibilisation et formation des communautés locales à la protection des forêts.",
+      icon: Scan,
+      examples: [
+        "Programmes éducatifs dans les écoles",
+        "Ateliers de sensibilisation communautaire",
+        "Partage des connaissances traditionnelles"
       ]
     }
   ];
 
   const caseStudies = [
     {
-      title: "Amazon Conservation Association",
-      description: "Utilisation de l'IA pour détecter l'exploitation forestière illégale en Amazonie en temps réel.",
-      impact: "Réduction de 37% de la déforestation illégale dans les zones surveillées"
+      title: "Gardiens de la Forêt - Brésil",
+      description: "Programme de formation des communautés autochtones pour la protection et la surveillance de leur territoire forestier.",
+      impact: "Protection de plus de 5 000 km² de forêt amazonienne"
     },
     {
-      title: "Rainforest Connection",
-      description: "Téléphones recyclés transformés en capteurs acoustiques qui détectent le bruit des tronçonneuses.",
-      impact: "Protection de plus de 3 000 km² de forêt tropicale"
+      title: "Initiative Maya - Guatemala",
+      description: "Projet de gestion forestière communautaire combinant savoirs traditionnels et pratiques durables.",
+      impact: "Restauration de 2 500 hectares de forêt et création de 200 emplois locaux"
     },
     {
-      title: "Microsoft AI for Earth",
-      description: "Programme qui soutient les organisations utilisant l'IA pour protéger les écosystèmes.",
-      impact: "Plus de 500 projets financés dans 81 pays"
+      title: "Green Belt Movement - Kenya",
+      description: "Mouvement de femmes pour la reforestation et l'autonomisation des communautés rurales.",
+      impact: "Plus de 51 millions d'arbres plantés et 30 000 femmes formées"
     }
   ];
 
@@ -68,12 +68,12 @@ export function SolutionsSection() {
     <section id="solutions" className="py-20">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="mb-4 ai-gradient">
-            L'IA comme solution à la déforestation
+          <h2 className="mb-4 forest-gradient">
+            Solutions communautaires pour la protection des forêts
           </h2>
           <p className="text-lg text-muted-foreground">
-            L'intelligence artificielle offre des outils puissants pour surveiller les forêts, 
-            détecter la déforestation en temps réel et optimiser les efforts de conservation.
+            L'engagement des communautés locales et les savoirs traditionnels sont essentiels pour protéger 
+            durablement nos forêts et assurer leur préservation pour les générations futures.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ export function SolutionsSection() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-semibold mb-6 text-center">Cas concrets d'utilisation de l'IA</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-center">Cas concrets de protection des forêts</h3>
           <div className="space-y-6">
             {caseStudies.map((study, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm flex flex-col md:flex-row gap-6">

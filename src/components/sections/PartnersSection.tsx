@@ -4,20 +4,20 @@ import { Card } from "@/components/ui/card";
 export function PartnersSection() {
   const partners = [
     { name: "Université de Paris", category: "academic" },
-    { name: "Microsoft AI for Earth", category: "tech" },
     { name: "WWF", category: "ngo" },
     { name: "Ministère de la Transition Écologique", category: "government" },
-    { name: "Google.org", category: "tech" },
     { name: "Greenpeace", category: "ngo" },
-    { name: "École Polytechnique", category: "academic" },
-    { name: "INRIA", category: "research" }
+    { name: "ONF", category: "government" },
+    { name: "France Nature Environnement", category: "ngo" },
+    { name: "CIRAD", category: "research" },
+    { name: "CNRS", category: "research" }
   ];
 
   const mediaLinks = [
-    { title: "L'IA au secours des forêts amazoniennes", source: "Le Monde", url: "#" },
-    { title: "Comment l'intelligence artificielle révolutionne la protection de l'environnement", source: "Sciences et Avenir", url: "#" },
-    { title: "Hackathon IA For Good : 48h pour sauver les forêts", source: "France Inter", url: "#" },
-    { title: "Les nouvelles technologies au service de la biodiversité", source: "National Geographic", url: "#" }
+    { title: "La déforestation en Amazonie atteint des records alarmants", source: "Le Monde", url: "#" },
+    { title: "Les forêts primaires, un patrimoine en danger", source: "Sciences et Avenir", url: "#" },
+    { title: "Mobilisation mondiale pour la protection des forêts", source: "France Inter", url: "#" },
+    { title: "La biodiversité forestière menacée par la déforestation", source: "National Geographic", url: "#" }
   ];
 
   return (
